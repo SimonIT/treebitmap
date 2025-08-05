@@ -7,6 +7,8 @@
 use alloc::vec;
 #[cfg(feature = "alloc")]
 use alloc::vec::Vec;
+#[cfg(not(feature = "alloc"))]
+use std::vec;
 use std::cmp;
 
 mod allocator;
@@ -624,7 +626,7 @@ impl<T> Drop for IntoIter<T> {
 
 pub struct MatchesMut<'a, T: 'a> {
     inner: &'a mut TreeBitmap<T>,
-    path: std::vec::IntoIter<(u32, AllocatorHandle, u32)>,
+    path: vec::IntoIter<(u32, AllocatorHandle, u32)>,
 }
 
 impl<'a, T: 'a> Iterator for MatchesMut<'a, T> {
