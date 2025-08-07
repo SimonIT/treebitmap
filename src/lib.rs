@@ -30,9 +30,6 @@ use tree_bitmap::TreeBitmap;
 pub mod address;
 use address::Address;
 
-#[cfg(feature = "alloc")]
-pub use address::addr::*;
-
 /// A fast, compressed IP lookup table.
 pub struct IpLookupTable<A, T> {
     inner: TreeBitmap<T>,
