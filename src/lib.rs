@@ -81,7 +81,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use treebitmap::IpLookupTable;
+    /// use ip_network_table_deps_treebitmap::IpLookupTable;
     /// use std::net::Ipv6Addr;
     ///
     /// let mut table = IpLookupTable::new();
@@ -102,7 +102,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use treebitmap::IpLookupTable;
+    /// use ip_network_table_deps_treebitmap::IpLookupTable;
     /// use std::net::Ipv6Addr;
     ///
     /// let mut table = IpLookupTable::new();
@@ -128,7 +128,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use treebitmap::IpLookupTable;
+    /// use ip_network_table_deps_treebitmap::IpLookupTable;
     /// use std::net::Ipv6Addr;
     ///
     /// let mut table = IpLookupTable::new();
@@ -150,7 +150,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use treebitmap::IpLookupTable;
+    /// use ip_network_table_deps_treebitmap::IpLookupTable;
     /// use std::net::Ipv6Addr;
     ///
     /// let mut table = IpLookupTable::new();
@@ -176,7 +176,7 @@ where
     /// # Example
     ///
     /// ```
-    /// use treebitmap::IpLookupTable;
+    /// use ip_network_table_deps_treebitmap::IpLookupTable;
     /// use std::net::Ipv6Addr;
     ///
     /// let mut table = IpLookupTable::new();
@@ -208,7 +208,7 @@ where
     /// # Example
     ///
     /// ```
-    /// use treebitmap::IpLookupTable;
+    /// use ip_network_table_deps_treebitmap::IpLookupTable;
     /// use std::net::Ipv6Addr;
     ///
     /// let mut table = IpLookupTable::new();
@@ -240,7 +240,7 @@ where
     /// # Example
     ///
     /// ```
-    /// use treebitmap::IpLookupTable;
+    /// use ip_network_table_deps_treebitmap::IpLookupTable;
     /// use std::net::Ipv6Addr;
     ///
     /// let mut table = IpLookupTable::new();
@@ -278,7 +278,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use treebitmap::IpLookupTable;
+    /// use ip_network_table_deps_treebitmap::IpLookupTable;
     /// use std::net::Ipv6Addr;
     ///
     /// let mut table = IpLookupTable::new();
@@ -304,7 +304,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use treebitmap::IpLookupTable;
+    /// use ip_network_table_deps_treebitmap::IpLookupTable;
     /// use std::net::Ipv6Addr;
     ///
     /// let x: Ipv6Addr = "2001:db8:100::".parse().unwrap();
